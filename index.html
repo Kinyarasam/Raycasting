@@ -4,11 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
   <title>Raycasting</title>
 </head>
-<body>
-  <div id="app"></div>
-    
+<body class="font-mono flex flex-col justify-center items-center bg-[#101010] text-[#dddddd]">
+  <div class="py-4 mb-16 border-b w-full text-center">
+    <h1 class="font-bold text-3xl uppercase">
+      Raycasting
+    </h1>
+  </div>
+  
+  <canvas 
+    class="shadow-white shadow-2xl rounded-xl"
+    id="app" width="1024" height="720">
+  </canvas>
+  
   <script src="./main.js"></script>
 </body>
 </html>
