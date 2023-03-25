@@ -529,6 +529,10 @@ video {
   display: flex;
 }
 
+.contents {
+  display: contents;
+}
+
 .w-full {
   width: 100%;
 }
